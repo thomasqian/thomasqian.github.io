@@ -29,7 +29,7 @@ var App = React.createClass({
       this.addHistory("README.md");
   },
   showWelcomeMsg: function() {
-      this.addHistory("Hello, I'm Thomas Qian, a software engineer at Google. Welcome to my website!");
+      this.addHistory("Hi! I'm Thomas Qian, a Computer Engineering student at UCSD. Welcome to my website!");
       this.addHistory("Type \"help\" to see available commands.");
   },
   catFile: function(arg) {
