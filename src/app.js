@@ -29,8 +29,8 @@ var App = React.createClass({
       this.addHistory("README.md");
   },
   showWelcomeMsg: function() {
-      this.addHistory("Hello, I'm Thomas Qian, a software engineer at Google.");
-      this.addHistory("Type `help` to see what all commands are available");
+      this.addHistory("Hello, I'm Thomas Qian, a software engineer at Google. Welcome to my website!");
+      this.addHistory("Type \"help\" to see available commands.");
   },
   catFile: function(arg) {
       if (arg === "README.md") {
